@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="mainBody">
+        <div class="title_container">
+            <div class="title">
+                Guess the number
+            </div>
+        </div>
+
+        <div class="display">
+        </div>
+        <div class="body">
+            <input type="number" class="guess" id="guess"></input>
+        </div>
+        <div class="menu">
+            <input type="radio" name="level" class="level" id="easy" data-action="easy"><label for="easy"><span class="level_span" data-action="easy">Easy</span></label>
+            <input type="radio" name="level" class="level" id="medium" data-action="medium"><label for="medium"><span class="level_span" data-action="medium">Medium</span></label>
+            <input type="radio" name="level" class="level" id="hard" data-action="hard"><label for="hard"><span class="level_span" data-action="hard">Hard</span></label>
+            <button>Give up :(</button>
+        </div>
+        <table class="list">
+            <tr class="row rowTitle">
+                <th>WON</th>
+                <th>LOST</th>
+            </tr>
+            <tr class="row rowBody">
+                <td id="won">0</td>
+                <td id="lost">0</td>
+            </tr>
+        </table>
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

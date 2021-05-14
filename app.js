@@ -59,6 +59,12 @@ function userGuess(level) {
             display.textContent = "Higher..";
             tries++;
         }
+        if (tries === 25) {
+            const lost = document.getElementById("lost");
+            display.textContent = "You lose!"
+            reload();
+            lost.textContent++;
+        }
         if (e.key === "Enter" && level === Number(guess.value)) {
             const won = document.getElementById("won");
             tries++;

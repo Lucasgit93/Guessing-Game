@@ -11,21 +11,21 @@ const hardLevel = document.querySelector("[data-action='hard']");
 easyLevel.addEventListener("click", () => {
     display.textContent = "25 numbers";
     const easy = level(25);
-    gues(easy);
+    userGuess(easy);
 
 })
 
 mediumLevel.addEventListener("click", () => {
     display.textContent = "50 numbers";
     const medium = level(50);
-    gues(medium);
+    userGuess(medium);
 
 })
 
 hardLevel.addEventListener("click", () => {
     display.textContent = "100 numbers";
     const hard = level(100);
-    gues(hard);
+    userGuess(hard);
 })
 
 
@@ -49,17 +49,17 @@ function level(num) {
     return Math.floor(Math.random() * num);
 }
 
-function gues(level) {
+function userGuess(level) {
     let tries = 0;
     guess.addEventListener("keypress", (e) => {
-        if (e.code === "Enter" && level < Number(guess.value)) {
+        if (e.key === "Enter" && level < Number(guess.value)) {
             display.textContent = "Lower...";
             tries++;
-        } else if (e.code === "Enter" && level > Number(guess.value)) {
+        } else if (e.key === "Enter" && level > Number(guess.value)) {
             display.textContent = "Higher..";
             tries++;
         }
-        if (e.code === "Enter" && level === Number(guess.value)) {
+        if (e.key === "Enter" && level === Number(guess.value)) {
             const won = document.getElementById("won");
             tries++;
             won.textContent++;

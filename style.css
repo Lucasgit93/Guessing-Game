@@ -372,7 +372,7 @@ span {
         height: 3.5rem;
         position: relative;
         top: 9rem;
-        left: 1rem;
+        left: 0.5rem;
         margin-top: 300px;
         border-radius: 10px;
         box-shadow: 1px 1px 3px 0.2px black, 2px 2px 6px 0.2px black, inset 3px 3px 9px 0.2px white;
@@ -405,7 +405,7 @@ span {
         z-index: -1;
         position: relative;
         top: 5rem;
-        left: 3rem;
+        left: 2rem;
         height: 4rem;
         width: 22rem;
         border-radius: 10px;
@@ -414,7 +414,7 @@ span {
     }
     .list {
         position: absolute;
-        right: 6rem;
+        right: 7.5rem;
         top: 15rem;
     }
     td,
@@ -454,7 +454,7 @@ span {
     }
     .menu {
         position: relative;
-        left: 5rem;
+        left: 3.5rem;
         bottom: -17rem;
     }
     .level_span {

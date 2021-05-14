@@ -371,9 +371,8 @@ span {
         width: 20rem;
         height: 3.5rem;
         position: relative;
-        left: 1rem;
         top: 9rem;
-        margin: auto;
+        left: 1rem;
         margin-top: 300px;
         border-radius: 10px;
         box-shadow: 1px 1px 3px 0.2px black, 2px 2px 6px 0.2px black, inset 3px 3px 9px 0.2px white;
@@ -400,13 +399,13 @@ span {
         margin: auto;
         margin-top: 0.15em;
         background: none;
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
     .title_container {
         z-index: -1;
         position: relative;
         top: 5rem;
-        left: 0.7rem;
+        left: 3rem;
         height: 4rem;
         width: 22rem;
         border-radius: 10px;
@@ -415,7 +414,7 @@ span {
     }
     .list {
         position: absolute;
-        right: 4rem;
+        right: 6rem;
         top: 15rem;
     }
     td,
@@ -437,7 +436,7 @@ span {
     .guess {
         position: absolute;
         bottom: -10rem;
-        left: 9rem;
+        left: 10rem;
         background-color: white;
         height: 2.5rem;
         font-size: 2.5rem;
@@ -455,7 +454,7 @@ span {
     }
     .menu {
         position: relative;
-        left: 2rem;
+        left: 5rem;
         bottom: -17rem;
     }
     .level_span {

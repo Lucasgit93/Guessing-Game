@@ -1,2 +1,2 @@
-# Guessing-Name
-A simple number guessing name
+# Guessing-Game
+A simple number guessing game
